@@ -16,6 +16,12 @@
 		}
 	</script>
 	<script type="text/javascript">
+		function raisedTo4() {
+				var num = document.getElementById("n1");
+				num.value = Math.pow(num.value, 4);
+		}
+	</script>
+	<script type="text/javascript">
 		function inverse() {
 			var num = document.getElementById("n1");
 			num.value = 1 / num.value;
@@ -28,6 +34,7 @@
 	<p>
 		<button onclick="square()"> x^2 </button>
 		<button onclick="cube()"> x^3 </button>
+		<button onclick="raisedTo4()"> x^4 </button>
 		<button onclick="inverse()"> 1/x </button>
 	</p>
 </body>
